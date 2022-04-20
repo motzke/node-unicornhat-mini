@@ -1,0 +1,32 @@
+{
+  "name": "unicornhat-mini",
+  "version": "1.0.0",
+  "description": "A Node.js module for the Pimoroni Unicorn Hat Mini",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/motzke/node-unicornhat-mini.git"
+  },
+  "keywords": [
+    "pimoroni",
+    "unicorn",
+    "hat",
+    "mini"
+  ],
+  "author": "Matthias Motzke <matthias@m0tz.de>",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/motzke/node-unicornhat-mini/issues"
+  },
+  "homepage": "https://github.com/motzke/node-unicornhat-mini#readme",
+  "dependencies": {
+    "pi-spi": "^1.2.1",
+    "character-pixelizer": "git+ssh@github.com:motzke/node-character-pixelizer.git"
+  },
+  "devDependencies": {
+    "mocha": "^9.2.2"
+  }
+}
